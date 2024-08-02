@@ -1,0 +1,53 @@
+/* Create.css */
+
+.create_form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    transition: box-shadow 0.3s ease-in-out;
+  }
+  
+  .create_form:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .create_form input {
+    flex: 1;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 8px 12px;
+    font-size: 16px;
+    margin-right: 10px;
+    transition: border-color 0.3s ease-in-out;
+  }
+  
+  .create_form input:focus {
+    border-color: #007bff; /* Change border color on focus */
+    outline: none;
+  }
+  
+  .create_form button {
+    background: #007bff; /* Blue background */
+    color: #fff; /* White text */
+    border: none;
+    border-radius: 4px;
+    padding: 8px 16px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .create_form button:hover {
+    background: #0056b3; /* Darker blue on hover */
+  }
+  
+  .create_form button:active {
+    background: #004494; /* Even darker blue on click */
+  }
+  
